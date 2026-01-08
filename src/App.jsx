@@ -6,6 +6,7 @@ import About from "./components/About";
 import Menu from "./components/Menu";
 import Chefs from "./components/Chefs";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Features from "./components/Features";
 import AppSection from "./components/AppSetion";
@@ -23,6 +24,7 @@ const Home = () => {
       <Menu />
       <Chefs />
       <Gallery />
+      <Contact />
       <AppSection />
       <Footer />
     </div>
