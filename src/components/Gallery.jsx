@@ -1,14 +1,14 @@
-import g1 from "../assets/dis1.jpg";
-import g2 from "../assets/dis2.jpg";
-import g3 from "../assets/dis3.jpg";
-import g4 from "../assets/dis4.jpg";
-import g5 from "../assets/dis5.jpg";
-import g6 from "../assets/dis6.jpg";
-import g7 from "../assets/dis7.jpg";
-import g8 from "../assets/dis8.jpg";
-
 export default function Gallery() {
-  const galleryImages = [g1, g2, g3, g4, g5, g6, g7, g8];
+  const galleryImages = [
+    "/dis1.jpg",
+    "/dis2.jpg",
+    "/dis3.jpg",
+    "/dis4.jpg",
+    "/dis5.jpg",
+    "/dis6.jpg",
+    "/dis7.jpg",
+    "/dis8.jpg",
+  ];
 
   return (
     <section id="gallery" className="w-full py-20 bg-green-50">
@@ -31,7 +31,7 @@ export default function Gallery() {
             >
               <img
                 src={img}
-                alt="Food item"
+                alt="Food"
                 className="w-full h-40 object-cover hover:scale-110 transition-transform duration-300"
               />
             </div>

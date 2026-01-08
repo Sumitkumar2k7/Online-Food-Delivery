@@ -1,5 +1,3 @@
-import aboutImg from "../assets/modernfood.png";
-
 export default function About() {
   return (
     <section id="about" className="w-full py-20 bg-white">
@@ -7,7 +5,7 @@ export default function About() {
 
         <div className="flex justify-center">
           <img
-            src={aboutImg}
+            src="/modernfood.png"
             alt="About Food"
             className="w-[420px] rounded-3xl shadow-xl hover:scale-105 transition-transform duration-500"
           />
@@ -30,12 +28,10 @@ export default function About() {
               <span className="w-3 h-3 mt-2 bg-green-600 rounded-full"></span>
               Fresh & Hygienic Food Everyday
             </li>
-
             <li className="flex gap-3 items-start">
               <span className="w-3 h-3 mt-2 bg-green-600 rounded-full"></span>
               100% Quality Ingredients & Expert Chefs
             </li>
-
             <li className="flex gap-3 items-start">
               <span className="w-3 h-3 mt-2 bg-green-600 rounded-full"></span>
               Fast Delivery To Your Home & Office
